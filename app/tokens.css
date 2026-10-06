@@ -1,0 +1,16 @@
+:root {
+  --paper:  #F3F0E8; /* main background */
+  --ink:    #0F1A14; /* text, near-black green */
+  --leaf:   #1F5B3A; /* primary brand */
+  --water:  #2E6F8E; /* flow and data */
+  --arc:    #19D3C5; /* plasma accent: thin lines, glows, live indicator only */
+  --signal: #FF6A2B; /* warning, pH threshold, primary CTA */
+  --reactor:#0B1410; /* the single dark section */
+  --grid:   color-mix(in srgb, var(--ink) 10%, transparent);
+
+  --font-display: var(--font-fraunces), "Instrument Serif", Georgia, serif;
+  --font-body:    var(--font-geist), system-ui, sans-serif;
+  --font-mono:    var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius: 4px; /* never above 6px */
+}
